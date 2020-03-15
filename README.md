@@ -1,24 +1,26 @@
-# README
+tic-tac-toe
+====
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Overview
 
-Things you may want to cover:
+JBBF東京の最新情報をスクレイピングし取得し、TwitterやLINEのbotで公表する。
 
-* Ruby version
+[JBBF東京公式サイト](http://tbbf.net/)
 
-* System dependencies
+## Description
 
-* Configuration
+JBBFが最新情報を公式サイトでしか公表しないためとても不便。
 
-* Database creation
+なので、最新の情報をJBBFの選手が手軽に見れるようにしたい。
 
-* Database initialization
+### Basic function
 
-* How to run the test suite
+- JBBF東京から最新情報を取得
 
-* Services (job queues, cache servers, search engines, etc.)
+### Function to add in the future
 
-* Deployment instructions
+- 新たに公表された情報を判別しDBに保存
+- TwitterのAPIを使用し新たな情報を呟く
+- LINEのAPIを使用し新たな情報を呟く
 
-* ...
+## Demo
