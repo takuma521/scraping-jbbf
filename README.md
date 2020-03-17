@@ -16,10 +16,10 @@ JBBFが最新情報を公式サイトでしか公表しないためとても不�
 ### Basic function
 
 - JBBF東京から最新情報を取得
+- 新たに公表された情報を判別しDBに保存
 
 ### Function to add in the future
 
-- 新たに公表された情報を判別しDBに保存
 - TwitterのAPIを使用し新たな情報を呟く
 - LINEのAPIを使用し新たな情報を呟く
 
