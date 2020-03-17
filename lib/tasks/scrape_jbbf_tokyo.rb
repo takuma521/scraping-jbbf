@@ -9,7 +9,7 @@ newsList = document.css('p').map do |p|
   if p.children[1]&.name == 'a'
     contents = p.text.split(/[[:blank:]]./)
     {
-      date: contents[0],
+      date: Date.strptime(contents[0],'%Y年%m月%d日'),
       text: contents[1],
       url: p.children[1].attributes['href'].value
     }
