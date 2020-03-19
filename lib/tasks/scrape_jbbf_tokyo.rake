@@ -6,7 +6,7 @@ namespace :scrape_jbbf_tokyo do
     require 'open-uri'
     require 'pry'
     document = Nokogiri::HTML.parse(open(JBBF_TOKYO_URL))
-    document.css('p').each do |p|
+    document.css('p').reverse_each do |p|
       if p.children[1]&.name == 'a'
         unless Press.where(url: p.children[1].attributes['href'].value).exists?
           begin
