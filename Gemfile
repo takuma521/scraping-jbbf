@@ -57,3 +57,4 @@ gem 'nokogiri'
 gem 'mysql2'
 gem 'pry-rails'
 gem 'twitter'
+gem 'whenever', require: false
