@@ -1,4 +1,4 @@
-tic-tac-toe
+scraping-jbbf
 ====
 
 Overview
@@ -6,6 +6,8 @@ Overview
 JBBF東京の最新情報をスクレイピングし取得し、TwitterやLINEのbotで公表する。
 
 [JBBF東京公式サイト](http://tbbf.net/)
+
+※現在サービスは停止しております。
 
 ## Description
 
